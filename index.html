@@ -6,6 +6,40 @@ body {
   background-color: #f9f9f9;
   
 }
+h2.detail {
+ Width: 300px;
+ background-color:#778899;
+ color: White;
+ text-align: center;
+ margin-left: 180px;
+} 
+li.detail1 {
+margin-left: 300px;
+padding: 10px;
+background-color: white;
+width: 50px;
+border: 3px dotted black;
+margin-bottom: 10px;
+} 
+tr.gray {
+background-color: #778899;
+color: White;
+}
+table.center {
+  margin-left: 330px; 
+  margin-right: 0px;
+}  
+td {
+margin-top: 200px;
+margin-bottom: 200px;
+margin-right: 200px;
+margin-left: 200px;
+padding: 10px 25px 10px 25px;
+background-color: #d3d3d3;
+}
+p.center1 {
+text-align: center
+}
 h1 { 
 color: #b4b4b4;}
 .myDiv {
@@ -18,14 +52,27 @@ font-family: Arial, Helvetica, sans-serif;
 text-align: center;
 }
 .myDiv3 {
-font-family: "Lucida Console", "Courier New", monospace;
+position: absolute;
 text-align: left;
-Width: 350px;
+Width: 300px;
+text-align: center;
 }
+.myDiv4 {
+position: absolute;
+right: 200px;
+padding: 10px;
+background-color: white;
+color: rgb(100,100,90);
+text-align: center;
+width:350px;
+margin: 10px;
+}
+.bold-text {
+            font-weight: bold;
+        }
 p { 
 padding: 10px;
 background-color: white;
-Width: 750px;
 color: rgb(100,100,90);
 }
 </style>
@@ -35,12 +82,58 @@ color: rgb(100,100,90);
 <h1>Nutrition</h1>
 </div>
 <div class="myDiv">
-  <h2>Diving Into Macro Nutrients</h2>
+  <h2>Diving Into Calories</h2>
 </div>
-<p>Nutrition is an often neglected aspect of exercise science that individuals do not recognize the importance of. The fact is that calories, along with the distribution of our macronutrients, will determine our muscle density, weight, and performance outcome.</p>
-<div class="myDiv3">
-<p>This is some text outside the div element.</p>
+<p>Nutrition is an often neglected aspect of exercise science that many individuals do not recognize the importance of. The fact is that calories, along with the distribution of our macronutrients, will determine our muscle density, weight, and performance outcome.</p>
+<figure>
+<img src="https://www.pakainfo.com/wp-content/uploads/2018/08/mifflin-st-jeor-calculator-Examples.png" alt="St mifflin's calculator including an equation to determine maintenance calories under many circumstances" width="700" height="200">
+<div class="myDiv4">
+<figcaption class= ".bold-text">Image Source: <a href="https://www.pakainfo.com">www.pakainfo.com</a></figcaption>
 </div>
+</figure>
+<br>
+<br>
+<p class= "myDiv3">The following table on the right hand side will demonstrate real life scenarios. You will notice that a female at an average height exercising more than a male at an average height will burn less calories.</p>
+<br>
+<table class= "center">
+        <thead>
+            <tr class= "gray">
+                <th>Gender</th>
+                <th>Age</th>
+                <th>Activity</th>
+                <th>Height</th>
+                <th>Weight</th>
+                <th>Maintenace Calories</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Male</td>
+                <td>28</td>
+              <td>Light Activity</td>
+                <td>5'10</td>
+                  <td>167</td>
+                <td>2500</td>
+            </tr>
+            <tr>
+                <td>Female</td>
+                <td>28</td>
+                <td>Very Active</td>
+                <td>5'4</td>
+                <td>115</td>
+                <td>2273</td>
+            </tr>
+        </tbody>
+</table>
+<p class= "center1"> Unfortunately we can see how height and gender can heavily influence a person's ability to burn calories. Let's briefly dive into the 3 macronutrients that will be gone over in my next webpage!</p>
+
+<ul>
+<h2 class= "detail"> Break-Down of Macronutrients </h2>
+        <li class="detail1">Protein</li>
+        <li class="detail1">Carbs</li>
+        <li class="detail1">Fats</li>
+    </ul>
+
 
 </body>
 </html>
